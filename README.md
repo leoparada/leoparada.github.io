@@ -1,2 +1,0 @@
-# leoparada.github.io
-Portfolio
