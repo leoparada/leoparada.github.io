@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Una perspectiva basada en datos de las defunciones por COVID-19 en Chile</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><strong><a href="index.html">Leandro Parada</a></strong></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Una perspectiva basada en datos de las defunciones por COVID-19 en Chile</h2>
+						<p>Por Leandro Parada P.<br>Actualizado al 26 de Junio 2020</p>
+						
+					</header>
+					<p>Al día 26 de Junio de 2020, el Minsal informa un total de <b><span style="color:#003f5c;">5068</span></b> muertes confirmadas por COVID-19 en el país. ¿Qué impacto han tenido las muertes por COVID-19 sobre el número total de muertes durante este año? ¿Qué porcentaje representa este número en relación a las muertes totales del año 2020?  ¿Cuál ha sido la diferencia entre las defunciones del año 2020 y las defunciones de otros años anteriores? Son algunas de las preguntas que este artículo busca responder. Para esto, se presenta un breve análisis histórico de las defunciones en Chile en base a datos de los últimos diez años.
+						El objetivo de este análisis es contribuir a la comprensión general del impacto de la pandemia COVID-19 en Chile. Este es un tema que no ha estado exento de polémica y tiende a confundir a muchos, considerando que el Minsal ha cambiado
+						 <b><span style="color:#003f5c;">tres veces</span></b>[1] la forma de contabilizar los fallecidos debido a COVID-19 desde el inicio de la pandemia. Mediante este y otros artículos, se pretende entregar una mirada no tendenciosos y sin prejuicios de la pandemia a partir de los datos.
+						Este artículo será actualizado semana a semana para incorporar nueva información entregada por fuentes oficiales.
+						La principales bases de datos utilizadas en el análisis son las siguientes:
+						<ol>
+						<li>Registro histórico de defunciones inscritas por el Servicio de Registro Civil e Identificación (SRCeI) desde el mes de Marzo 2010 hasta el mes de Junio 2020. Pueden acceder a esta base de datos a través del siguiente <a style="text-decoration:none" href="https://estadisticas.sed.srcei.cl/defcom" target="_blank"><b><span style="color:#003f5c;">link.</span></b></a>[2]</li>
+						<li>Defunciones por COVID-19 en Chile: corresponden a inscripciones de fallecimientos del Servicio de Registro Civil e Identificación, cruzados diariamente con el registro de los resultados de laboratorio para el diagnóstico de COVID-19 en Chile (RT-PCR). Base de datos consolidada y curada por el Ministerio de Salud (Minsal). Estos datos se pueden obtener del siguiente <a style="text-decoration:none" href="https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto37" target="_blank"><b><span style="color:#003f5c;">link.</span></b></a>[3]</li>
+						<li>Estadísticas de defunciones por causa básica de muerte: U07.2 COVID Sospechoso. Departamento de Estadísticas e Información de Salud (DEIS). Pueden acceder a estas estadísticas en el siguiente <a style="text-decoration:none" href="https://public.tableau.com/profile/deis4231#!/vizhome/DefuncionesSemanales1_0/DEF?publish=yes" target="_blank"><b><span style="color:#003f5c;">link.</span></b></a>[4]</li>
+						</ol>
+					</p>
+					<p>Con el fin de comparar los fallecidos año tras año y de tratar de dilucidar el impacto de la pandemia reflejado sobre las defunciones mensuales se creó el siguiente gráfico. Para crear este gráfico se agruparon los datos de defunciones del Registro Civil por mes y por año.
+						Nota: para ocultar los datos de un año en específico se debe hacer un click sobre el año que se desea ocultar en la leyenda. Para analizar rápidamente un año en particular, se debe hacer doble click sobre dicho año en la leyenda.
+						</p>
+					<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~leoparadap/10.embed" height="525" width="100%"></iframe>
+					<p>A partir de un breve análisis exploratorio de los datos de defunciones entre los años 2010-2019, se desprenden algunos hechos de los cuales no tenía conocimiento o sólo tenía conocimiento parcial: </p>
+					<ul>
+						<li>En Chile fallecen cerca de <b><span style="color:#003f5c;">cien mil</span></b> personas al año. El número de defunciones por año se encuentran entre un mínimo de 95105 (2011) y un máximo de 109840 (2019).</li>
+						<li>Existe una aumento sostenido del número de defunciones año tras año, explicado en parte por el aumento de la población. El aumento anual del número de defunciones es aproximadamente lineal (R<sup>2</sup>=0,94).</li>
+						<li>Existe una tendencia de aumento sistemático de fallecidos durante los meses de Junio, Julio y Agosto comparado con el resto de los meses.</li>
+					</ul>
+					<p>En cuanto a los meses de 2020, se aprecia un comportamiento relativamente normal durante los primeros 4 meses del año (Ene-Abr). El número de fallecidos siempre fue igual o levemente superior al año anterior. Sin embargo, durante el mes de Mayo hubo un aumento considerable en el número de muertes. Específicamente, al 26 de Junio 2020, el registro civil informa un total de 11254 muertes durante el mes de Mayo, el máximo histórico para un mes en Chile,
+						 y con una diferencia de <b><span style="color:#003f5c;">+15,24%</span></b> con respecto al mismo mes del año 2019 (9765 defunciones). Este porcentaje es una de las mayores diferencias observadas en años consecutivos, sólo superada por la diferencia entre los meses de Junio 2016-Junio 2017 (+15,40%). Existen también otras diferencias notables entre el mismo mes de dos años consecutivos; Junio 2013-Junio 2014 (+14,39%), Julio 2012-Julio 2013 (+12,11%),  Marzo 2010-Marzo 2011 (-14,25%) y Septiembre 2011-Septiembre 2012 (-14,32%).</p>
+					<p>El aumento del número de fallecidos durante el mes de Mayo 2020 se ve aún más pronunciado cuando realizamos un análisis semanal. La siguiente figura presenta las defunciones inscritas en el Registro Civil agrupadas por semana y año. La semana 23 corresponde a la primera semana de Junio.</p>
+					<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~leoparadap/5.embed" height="525" width="100%"></iframe>
+
+					<p>Al realizar una inspección rápida del gráfico, inmediatamente podemos concluir que el número total de personas fallecidas durante las semanas 21, 22 y 23 (18 de Mayo al 7 de Junio) es completamente atípico y fuera de la norma de años anteriores.
+						 El aumento porcentual de la semana 23 respecto de la misma semana del año 2019 es igual a <b><span style="color:#003f5c;">56,18%</span></b>. Ahora, para analizar cuál ha sido la influencia de los fallecidos por COVID-19 sobre el total de fallecidos reportados por el Registro Civil, es necesario primero introducir algunas definiciones de acerca de las defunciones por COVID-19.</p>
+					<p style="font-size:25px"><b>Defunciones por COVID-19</b></p>
+					<p>A partir del mes de Marzo 2020, el DEIS ha implementado las recomendaciones de la Organización Mundial de la Salud (OMS) para la codificación de las defunciones producto del COVID-19. Bajo esta codificación se identifican dos grupos de defunciones:</p>
+					<ol>
+						<li> <b><span style="color:#003f5c;">U07.1 – COVID-19 Confirmado</span></b> </li>
+						<li><b><span style="color:#003f5c;">U07.2 – COVID-19 Sospechoso o Probable</span></b></li>
+					</ol>
+					<p>De acuerdo al Minsal, la única fuente que confirma una muerte por COVID-19 es el Laboratorio, mediante el examen RT-PCR [5]. El número de fallecidos por COVID-19 Sospechoso o Probable es un número provisional que puede cambiar en el tiempo y está compuesto por dos subgrupos: </p>
+					<p>2.1) Aquellos fallecidos cuyo Certificado Médico de Defunción (CMD) contiene la palabra Covid19 pero tienen PCR negativo, no concluyente o sin registro de examen.</p>
+					<p>2.2) Aquellos fallecidos cuyo CMD no contiene la palabra Covid19, tienen PCR negativo, No concluyente o sin registro de examen, pero además están presentes en la base del Sistema de Vigilancia Epidemiológica (Epivigila) con registro de etapa clínica Confirmada, Sospechosa o Probable.</p>
+					<p>El detalle de cómo se realiza el procedimiento de búsqueda intencionada de defunciones por COVID-19 y de cómo se clasifican dichas defunciones se puede encontrar en el Informe Epidemiológico del día 19 de Junio. De acuerdo a este informe, el número de defunciones por COVID-19 Sospechoso o Probable asciende a 3069 desde el inicio de la pandemia.</p>
+					<p>Para realizar un análisis de las defunciones por COVID-19, debemos tener en cuenta que existe un cierto desfase temporal de los datos reportados. Los resultados del examen RT-PCR pueden tardar 14 días o más en ser entregados [6]. Por otra parte, existe también un desfase propio de la inscripción de las defunciones en la base de datos del Registro Civil. Por lo tanto, las muertes por COVID-19 confirmado entregadas en el reporte diario tienen un desfase de 1 o 2 semanas y que puede llegar a ser de 1 mes en algunos casos. Esto quiere decir que dentro del número diario de defunciones reportadas por el Minsal, existen personas que fallecieron hace 1 mes, pero cuyo test RT-PCR fue sólo confirmado recientemente. En consecuencia, para realizar un análisis válido de los datos de defunciones por COVID-19 confirmado, resulta prudente tomar un desfase de al menos 2 semanas. </p>
+					<p>El número de fallecidos semanales tanto por COVID-19 Confirmado como Sospechoso o Probable se presentan en la siguiente figura. La semana 12 corresponde a la tercera semana del mes de Marzo (comenzando el Lunes 16). La semana 23 corresponde a la primera semana del mes de Junio (comenzando el Lunes 1).</p>
+					<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~leoparadap/13.embed" height="525" width="100%"></iframe>
+					<p>A partir de este gráfico, vemos como el número de muertes de acuerdo a ambas definiciones son similares entre las semanas 12 y 19 (16 de Marzo a 10 de Mayo), pero luego las muertes por COVID-19 Confirmado aumentan en una proporción considerablemente mayor. Las muertes por COVID-19 Sospechoso o Probable incluso superan, durante algunas semanas, a las muertes por COVID-19 Confirmado. Cabe destacar que tanto el número total como el desglose por región de fallecidos Sospechosos o Probables se conoció recién el día 19 de Junio mediante la entrega del Informe Epidemiológico.</p>
+					<p>Finalmente, podemos realizar una comparación gráfica de las defunciones por COVID-19 sobre el total de defunciones entregadas por el Registro Civil. Para esto, a partir de los datos semanales reportados por el Registro Civil (Gráfico de defunciones semanales), el cual contiene la totalidad de los fallecidos, identificamos la diferencia de los fallecidos por COVID-19 tanto Confirmados como Totales (Confirmados más Sospechosos o Probables). Esta diferencia o resta nos permite analizar el escenario semanal de fallecidos sin contar las defunciones por COVID-19. Adicionalmente, podemos comparar estos escenarios con el rango Mínimo-Máximo de las defunciones ocurridas entre los años 2010-2019, el cual se presenta de color gris. Mediante los botones de la parte superior izquierda del gráfico se puede alternar entre la diferencia de fallecidos por COVID-19 Confirmado y Totales.</p>
+					<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~leoparadap/24.embed" height="525" width="100%"></iframe>
+					<p>Si quitamos las defunciones por COVID-19 Confirmado, podemos observar que la curva de fallecidos semanales estaría en la zona superior del rango Min-Max 2010-2019 y en algunas ocasiones sería ligeramente superior a este rango. Por otro lado, si quitáramos el número de fallecidos totales por COVID-19 a las defunciones reportadas por el Registro Civil, la nueva curva de fallecidos pasaría más cercana al centro del rango Min-Max 2010-2019 y algunas semanas estarían en la zona inferior del mismo rango.</p>
+					<p>La tendencia de las muertes semanales durante los meses sin pandemia del año 2020 se encontraba en la zona superior del rango Min-Max 2010-2019. Un camino lógico sería proyectar que la curva de muertes semanales sin pandemia siguiera la misma tendencia, más parecida al primer caso sólo con las defunciones confirmadas. Sin embargo, no podemos concluir que fallecidos totales por COVID-19 reportados por el Minsal hayan sido sobrestimados ya que hay otros factores que pueden haber influido sobre las muertes durante la pandemia, como por ejemplo, la posible baja incidencia de otros tipos de virus respiratorios.</p>
+					<p>[1] https://www.emol.com/noticias/Nacional/2020/06/20/989715/muertes-probables-covid-desafio-paris.html
+						<br>[2] https://estadisticas.sed.srcei.cl/defcom
+						<br>[3] https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto37
+						<br>[4] https://public.tableau.com/profile/deis4231#!/vizhome/DefuncionesSemanales1_0/DEF?publish=yes
+						<br>[5] Informe Epidemiológico 19 de Junio 2020. https://www.minsal.cl/nuevo-coronavirus-2019-ncov/informe-epidemiologico-covid-19/
+						<br>[6] https://www.biobiochile.cl/noticias/nacional/chile/2020/06/12/estudio-revela-demora-14-dias-resultados-pcr-espera-mayor-afiliados-fonasa.shtml
+					</p>
+					
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/leandro-parada-pradenas-2942b7119/" target="_blank" class="icon fa-linkedin"></a></li>
+						<li><a href="https://github.com/leoparada" target="_blank" class="icon fa-github"></a></li>
+						<li><a href="#" class="icon fa-twitter"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li>
+						<li>Correo: leoparadap@gmail.com</li>
+						<li>Imágenes: propias</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
