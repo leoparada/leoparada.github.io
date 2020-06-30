@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Herramienta de proyección del uso de camas-UCI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><strong><a href="index.html">Leandro Parada</a></strong></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Herramienta de proyección del uso de camas de la Unidad de Cuidados Intensivos (UCI)</h2>
+						<p>Proyecto desarrollado en conjunto con el Hospital Guillermo Grant Benavente (HGGB)</p>
+					</header>
+
+					
+					<p>La disponibilidad de unidades críticas en un hospital puede llegar a colapsar cuando se enfrentan situaciones de aumento repentino de los requerimientos en un corto intervalo de tiempo tal como ocurre durante una pandemia. 
+						El crecimiento de los casos por coronavirus (COVID-19) y en consecuencia, el aumento del número de pacientes que requieren de cuidado intensivo, produce un estrés en la toma de decisiones que obliga a evaluar de antemano 
+						distintos escenarios para los recursos disponibles. Conocer anticipadamente el número de pacientes que requerirían de cuidado intensivo permitiría tomar las medidas apropiadas para aumentar, de acuerdo a la disponibilidad tecnológica, 
+						el número de de tales unidades si esto fuese requerido. </p>
+					<p>Con el fin de evaluar las necesidades futuras de una Unidad de Cuidados Intensivos, nosotros recurrimos a un modelo de simulación por eventos discretos que permite identificar anticipadamente 
+						el momento en el cual se podría saturar la capacidad. A partir de este modelo se construye una herramienta computacional que genera distintos escenarios posibles. Como los datos a nivel nacional
+						se actualizan diariamente, cada día se ejecuta el modelo y se prepara un informe para el Hospital con el fin apoyar la toma de decisiones. Con esa información, la dirección del hospital toma sus
+						decisiones de programación semanal de actividades. A continuación se presenta una figura que contiene las distintas proyecciones posibles para simular distintos escenarios. </p>
+					<a class="image fit"><img src="images/camas_uci_1.png" alt="" /></a>	
+					<p>Como datos de entrada se considera: un período de simulación, el número de casos identificados desde el inicio de la enfermedad, el porcentaje
+						de casos que requieren hospitalización, el porcentaje de pacientes hospitalizados que requieren de cuidado intensivo y el número camas-UCI disponibles. Para proyectar en el corto plazo el número
+						de nuevos casos, se utilizan diversas funciones matemáticas y para estimar el número de días-cama requeridos por cada paciente, se usa una variable aleatoria distribuida según una distribución 
+						normal. La herramienta computacional produce un reporte que ilustra de manera gráfica el uso que tendría la UCI durante el período de simulación. 
+						A continuación se presenta un ejemplo de parte del informe diario entregado por la herramienta.  <br>
+						<a class="image fit"><img src="images/camas_uci_3.png" alt="" /></a>
+						Pueden encontrar más detalles sobre el sistema computacional <a style="text-decoration:none" href="https://www.tvu.cl/prensa/tele-entrevista/2020/05/15/que-tan-cerca-se-ve-un-colapso-de-camas-criticas-en-el-bio-bio.html" target="_blank"><b><span style="color:#003f5c;">aqui</span></b></a>. 
+						<br><br>
+						Autores: M. Werner (Hospital HGGB & UdeC); L. Parada (UdeC); L. Pradenas (UdeC), V. Parada (USACH, ISCI).</p>					
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="container">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/leandro-parada-pradenas-2942b7119/" target="_blank" class="icon fa-linkedin"></a></li>
+					<li><a href="https://github.com/leoparada" target="_blank" class="icon fa-github"></a></li>
+					<li><a href="#" class="icon fa-twitter"></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; 2020 Leandro Parada</li>
+					<li>Correo: leoparadap@gmail.com</li>
+					<li>Imágenes: propias</li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
